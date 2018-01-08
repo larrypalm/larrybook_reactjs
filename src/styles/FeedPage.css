@@ -1,0 +1,87 @@
+
+.displayMovie{
+   width: 50%;
+   height: auto;
+   padding-bottom: 15px;
+   padding-top: 15px;
+}
+
+.movie{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
+.movie li{
+   display: flex;
+   flex-direction: row;
+   padding-left: 0px;
+   padding: 0;
+}
+.movieInfo {
+   display: flex;
+   flex-direction: column;
+   padding-left: 20px;
+}
+.display-comment{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.commentsList{
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.commentsList p{
+   padding-left: 10px;
+}
+.commentsList:nth-child(odd){
+  background-color: #88B3FF;
+  color: #f6f6f6;
+}
+
+.comment-txt{
+   width: 85%;
+}
+
+.comment-field{
+   width: 50%;
+   height: auto;
+}
+
+.comment-field form input {
+   height: 50px;
+   background-color: #fff;
+   color: black;
+   padding-left: 10px;
+}
+
+.adminsection {
+  width:50%;
+}
+
+.userlistWrapper{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+}
+.users{
+   width: 50%;
+}
+.userlist{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.btn-remove-user {
+   margin-left: 15px;
+}
